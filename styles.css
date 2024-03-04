@@ -1,0 +1,69 @@
+import
+.{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main_box{
+    position:relative;
+    background: url("plant.png")left  no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main_box .sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width: 280px;
+    background-color: rgb(300, 300, 300, 0.8);
+    box-shadow: 0 0 6px rgba(189, 201, 120, 0.5);
+}
+    .sidebar_menu .logo{
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        box-shadow: 0 0 6px rgba(212, 218, 134, 0.5);
+
+    }
+
+    .sidebar_menu .logo a{
+        color:goldenrod;
+        font-size: 40spx;
+        font-weight: 500;
+        position: middle;
+        left: 50px;
+        line-height: 60px;
+        text-decoration: none;
+
+    }
+
+    .sidebar_menu .menu{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+    }
+
+    .sidebar_menu .menu li{
+        margin: 6px;
+        padding: 14px 20px;
+    }
+
+    .sidebar_menu .menu i{
+        color: rgba(19, 19, 75, 0.692);
+        padding-right: 8px;
+        font-size: 20px;
+
+    }
+
+    .sidebar_menu .menu a{
+        color: rgb(17, 17, 61);
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .sidebar_menu .menu li:hover{
+        border-left: 5px solid rgb(139, 141, 12);
+        box-shadow: 0 0 20px rgba(189, 201, 120, 0.5);
+    }
